@@ -1,0 +1,30 @@
+[
+  {
+    "text": ["Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете", "Write code as if it were accompanied by a violent psychopath who knows where you live"],
+    "author": ["Стив Макконнелл", "Steve McConnell"]
+  },
+  {
+    "text": ["Сложность программы растет до тех пор, пока не превысит способности программиста", "Program complexity grows until it exceeds the programmer's ability"],
+    "author": ["Артур Блох. Законы Мэрфи", "Arthur Bloch. Murphy's Laws"]
+  },
+  {
+    "text": ["Ходить по воде и разрабатывать программы, следуя ТЗ, очень просто… если они заморожены", "It's very easy to walk on water and develop software following the ToR...if it's frozen"],
+    "author": ["И. Берард", "I. Berard"]
+  },
+  {
+    "text": ["Не проблемы должны толкать вас в спину, а вперед вести мечты", "Not problems should push you in the back, but forward dreams"],
+    "author": ["Дуглас Эверетт", "Douglas Everett"]
+  },
+  {
+    "text": ["Вы не будете расти, если не будете пытаться совершить что-то за пределами того, что вы уже знаете в совершенстве", "You won't grow if you don't try to do something beyond what you already know perfectly"],
+    "author": ["Ральф Эмерсон", "Ralph Emerson"]
+  },
+  {
+    "text": ["Не бойтесь жизни. Поверьте, что жизнь достойна того, чтобы прожить, и вам будет дано по вере вашей", "Do not be afraid of life. Believe that life is worth living, and it will be given to you according to your faith"],
+    "author": ["Уильям Джеймс", "William James"]
+  },
+  {
+    "text": ["Вы никогда не сумеете решить возникшую проблему, если сохраните то же мышление и тот же подход, который привел вас к этой проблеме", "You will never be able to solve a problem if you keep the same mindset and the same approach that led you to this problem"],
+    "author": ["Альберт Эйнштейн", "Albert Einstein"]
+  }  
+]  

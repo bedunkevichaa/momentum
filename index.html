@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <audio src="assets/sounds/AquaCaelestis.mp3"></audio>
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div id="toggle" class="toggle noselect" @click="switchLang()">
+      <img id="flag" src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="flag"  class="en" >
+    </div>
+    <div class="weather">
+      <input type="text" class="city" value="Minsk" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time" id="time"></time>
+    <date class="date" id="date"></date>
+    <div class="greeting-container">
+      <span class="greeting" id="greeting"></span>
+      <input type="text" class="name" id="name" placeholder="[Enter name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="wrapper">
+      <div class="copyright">
+        ©Anton Bedunkevich <b>2022</b>
+      </div>
+
+      <div class="footer__social">
+        <div class="rssch">
+          <a href="https://rs.school/js/"><img src="assets/ico/rs_school_js.svg" alt="rs_school"></a>
+        </div>
+        <div class="social github">
+          <a href="https://github.com/bedunkevichaa/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="js/clock&calendar.js"></script>
+  <script type="module" src="js/greeting.js"></script>
+  <script src="js/slider.js"></script>
+  <script type="module" src="js/weather.js"></script>
+  <script type="module" src="js/quotes.js"></script>
+  <script type="module" src="js/audio.js"></script>
+  <script type="module" src="js/translate.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
